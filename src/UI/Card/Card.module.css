@@ -1,0 +1,6 @@
+.Card {
+    padding: 2.8rem;
+    display: grid;
+    grid-template-rows: max-content 2rem max-content;
+    grid-gap: 1.5rem;
+}
