@@ -10,7 +10,7 @@ There are two different branches with the main branch which you most likely are 
 
 
 ### LOOK OF THE WEBSITE
-<img alt="3-column-card desktop look" src="./images/3-column-card-look.GIF" width="630px" height="320px"/>
+<img alt="3-column-card desktop look" src="./images/3-column-card-look.GIF" width="100%" height="100%"/>
 
 
 Follow me on **[Twitter](https://twitter.com/code_art4)** or connect with me on **[LinkedIn](https://ng.linkedin.com/in/ojo-triumph)** if you like this site.
