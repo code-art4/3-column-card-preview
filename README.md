@@ -8,5 +8,6 @@ It is a converted UI design gotten from [Frontend mentor](https://www.frontendme
 ### MORE ON THE CODE
 There are two different branches with this being react-made branch, the major shift was using REACT JS to structure the DOM.
 
+Here is a live [demo](https://react-made-3-card-preview.netlify.app) of the react made 3-colummn-card
 
 Follow me on **[Twitter](https://twitter.com/code_art4)** or connect with me on **[LinkedIn](https://ng.linkedin.com/in/ojo-triumph)** if you like this site.

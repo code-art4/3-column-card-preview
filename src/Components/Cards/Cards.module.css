@@ -1,26 +1,51 @@
-.Cards {
-    display: flex;
-    width: 70%;
-    height: max-content;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-}
-
-@media only screen and (max-width: 375px) {
-    .Cards {
-        flex-direction: column;
-        width: 80%;
-        top: 10%;
-        transform: translate(-50%, 0);
-        -webkit-transform: translate(-50%, 0);
-        -moz-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-        -o-transform: translate(-50%, 0);
-    }
-}
+        .Cards {
+            display: flex;
+            width: 75%;
+            height: max-content;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+        }
+        
+        @media only screen and (min-width:760px) and (max-width: 1000px) {
+            .Cards {
+                width: 95%;
+                margin: auto;
+                top: 10%;
+                transform: translate(-50%, 0);
+                -webkit-transform: translate(-50%, 0);
+                -moz-transform: translate(-50%, 0);
+                -ms-transform: translate(-50%, 0);
+                -o-transform: translate(-50%, 0);
+            }
+        }
+        
+        @media only screen and (max-width: 760px) {
+            .Cards {
+                flex-direction: column;
+                top: 10%;
+                width: 50%;
+                transform: translate(-50%, 0);
+                -webkit-transform: translate(-50%, 0);
+                -moz-transform: translate(-50%, 0);
+                -ms-transform: translate(-50%, 0);
+                -o-transform: translate(-50%, 0);
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .Cards {
+                width: 65%;
+            }
+        }
+        
+        @media only screen and (max-width: 420px) {
+            .Cards {
+                width: 80%;
+            }
+        }

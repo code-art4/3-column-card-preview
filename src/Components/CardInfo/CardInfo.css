@@ -60,7 +60,7 @@ p {
     color: var(--Primary-bright-orange);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 760px) {
     .Card__1 {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
@@ -81,7 +81,7 @@ p {
     border-bottom-right-radius: .4rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 760px) {
     .Card__3 {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
