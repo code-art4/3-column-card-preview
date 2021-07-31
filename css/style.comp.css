@@ -19,7 +19,7 @@ body {
 
 .container {
   display: flex;
-  width: 70%;
+  width: 75%;
   height: max-content;
   position: absolute;
   top: 50%;
@@ -29,21 +29,43 @@ body {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%); }
-  @media only screen and (max-width: 375px) {
+  @media only screen and (min-width: 760px) and (max-width: 1000px) {
     .container {
-      flex-direction: column;
-      width: 80%;
+      width: 95%;
+      margin: auto;
       top: 10%;
       transform: translate(-50%, 0);
       -webkit-transform: translate(-50%, 0);
       -moz-transform: translate(-50%, 0);
       -ms-transform: translate(-50%, 0);
       -o-transform: translate(-50%, 0); } }
+  @media only screen and (max-width: 760px) {
+    .container {
+      flex-direction: column;
+      top: 10%;
+      width: 50%;
+      transform: translate(-50%, 0);
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0); } }
+  @media only screen and (max-width: 500px) {
+    .container {
+      width: 65%; } }
+  @media only screen and (max-width: 420px) {
+    .container {
+      width: 80%; } }
   .container .card {
     padding: 2.8rem;
     display: grid;
     grid-template-rows: max-content 2rem max-content;
     grid-gap: 1.5rem; }
+    @media only screen and (min-width: 700px) and (max-width: 1300px) {
+      .container .card {
+        padding: 2.8rem 1.9rem; } }
+    @media only screen and (max-width: 600px) {
+      .container .card {
+        padding: 2rem 2.8rem; } }
     .container .card h1 {
       font-size: 1.9rem;
       font-weight: 700; }
@@ -75,7 +97,7 @@ body {
       background: var(--Primary-bright-orange);
       border-top-left-radius: .4rem;
       border-bottom-left-radius: .4rem; }
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-width: 760px) {
         .container .card__1 {
           border-top-left-radius: 0;
           border-bottom-left-radius: 0; } }
@@ -89,7 +111,7 @@ body {
       background: var(--Very-dark-cyan);
       border-top-right-radius: .4rem;
       border-bottom-right-radius: .4rem; }
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-width: 760px) {
         .container .card__3 {
           border-top-right-radius: 0;
           border-bottom-right-radius: 0; } }
